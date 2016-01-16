@@ -1,0 +1,9 @@
+platform :ios, '6.0'
+pod 'RESideMenu', '~> 4.0.7'
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'SDWebImage'
+pod 'pop', '~> 1.0'
+

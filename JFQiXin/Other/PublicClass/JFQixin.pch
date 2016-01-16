@@ -1,0 +1,23 @@
+//
+//  JFQixin.pch
+//  JFQiXin
+//
+//  Created by 保修一站通 on 15/10/23.
+//  Copyright © 2015年 JF. All rights reserved.
+//
+
+#ifndef JFQixin_pch
+#define JFQixin_pch
+
+#import "JFQiXin.h"
+
+#endif
+#ifdef DEBUG
+
+#   define JFLog(fmt, ...) {NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
+#   define ELog(err) {if(err) DLog(@"%@", err)}
+#else
+#   define DLog(...)
+#   define ELog(err)
+
+#endif /* JFQixin_pch */

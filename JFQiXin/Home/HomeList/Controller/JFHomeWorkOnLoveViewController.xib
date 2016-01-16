@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A2301" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JFHomeWorkOnLoveViewController">
+            <connections>
+                <outlet property="layoutWorkOnLoveBtnView" destination="PMM-7P-d13" id="lKg-6k-bR6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sof-3X-faN">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="458"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="摇一摇考勤" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s01-4D-LRe">
+                            <rect key="frame" x="128" y="218" width="65" height="16"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015 － 11 －2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5U-Ty-2YM">
+                            <rect key="frame" x="105" y="263" width="111" height="21"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign_yy_sel.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ym3-wK-XFf">
+                            <rect key="frame" x="94" y="72" width="133" height="133"/>
+                            <animations/>
+                        </imageView>
+                    </subviews>
+                    <animations/>
+                    <constraints>
+                        <constraint firstItem="Ym3-wK-XFf" firstAttribute="centerX" secondItem="sof-3X-faN" secondAttribute="centerX" id="53E-8V-6OT"/>
+                        <constraint firstItem="h5U-Ty-2YM" firstAttribute="top" secondItem="s01-4D-LRe" secondAttribute="bottom" constant="29" id="LDY-MD-Bk1"/>
+                        <constraint firstItem="Ym3-wK-XFf" firstAttribute="top" secondItem="sof-3X-faN" secondAttribute="top" constant="72" id="MhZ-sy-t7Q"/>
+                        <constraint firstItem="s01-4D-LRe" firstAttribute="top" secondItem="Ym3-wK-XFf" secondAttribute="bottom" constant="13" id="O7E-RJ-2s8"/>
+                        <constraint firstItem="s01-4D-LRe" firstAttribute="centerX" secondItem="sof-3X-faN" secondAttribute="centerX" id="Zxd-oL-M8K"/>
+                        <constraint firstItem="h5U-Ty-2YM" firstAttribute="centerX" secondItem="sof-3X-faN" secondAttribute="centerX" id="mGe-op-Wpl"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PMM-7P-d13">
+                    <rect key="frame" x="0.0" y="457" width="320" height="111"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="111" id="1W6-Br-HB5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="PMM-7P-d13" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2re-MX-XTZ"/>
+                <constraint firstAttribute="bottom" secondItem="sof-3X-faN" secondAttribute="bottom" constant="110" id="6eY-bx-XfP"/>
+                <constraint firstAttribute="trailing" secondItem="sof-3X-faN" secondAttribute="trailing" id="8Re-g2-7wi"/>
+                <constraint firstItem="sof-3X-faN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="TcQ-At-R6l"/>
+                <constraint firstAttribute="trailing" secondItem="PMM-7P-d13" secondAttribute="trailing" id="XBl-5D-7fM"/>
+                <constraint firstItem="sof-3X-faN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aZr-rp-Jah"/>
+                <constraint firstAttribute="bottom" secondItem="PMM-7P-d13" secondAttribute="bottom" id="vyy-iZ-IWr"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sign_yy_sel.png" width="133" height="133"/>
+    </resources>
+</document>
