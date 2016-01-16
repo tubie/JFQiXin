@@ -32,7 +32,6 @@
     
     [self initView];
 
-    [self initData];
 }
 
 -(void)initView{
@@ -41,10 +40,15 @@
     
 }
 
+#pragma mark - 懒加载
+-(NSArray *)titleArray{
+    if (_titleArray == nil) {
+        _titleArray = @[@"首页",@"我的工作圈",@"通讯录",@"组织切换",@"应用中心",@"客服中心",@"设置"];
 
--(void)initData{
-    self.titleArray = @[@"首页",@"我的工作圈",@"通讯录",@"组织切换",@"应用中心",@"客服中心",@"设置"];
+    }
+    return _titleArray;
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
