@@ -65,6 +65,8 @@
 
 -(void)initView{
     self.taskCentertableView = [UITableView initWithTableView:CGRectMake(0, 45, JFSCREENWIDTH, JFSCREENHEIGHT) withDelegate:nil];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"girl"]];
+    self.taskCentertableView.backgroundColor = [UIColor clearColor];
     [self.view addSubview:self.taskCentertableView];
 
 }
