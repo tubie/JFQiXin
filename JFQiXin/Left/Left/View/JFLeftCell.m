@@ -17,7 +17,6 @@
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
-    // Configure the view for the selected state
 }
 + (instancetype)cellWithTableView:(UITableView *)tableView
 {
@@ -25,7 +24,7 @@
     JFLeftCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     if (cell == nil) {
         // 从xib中加载cell
-        cell = [[[NSBundle mainBundle] loadNibNamed:@"JFLeftCell" owner:nil options:nil] lastObject];
+        cell = [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:nil options:nil] lastObject];
     }
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;

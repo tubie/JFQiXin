@@ -38,7 +38,6 @@
 -(void)initData{
     NSDictionary *dict =  [LoadPlist loadPlistFromPlistName:@"FriendDynamic.plist"];
     NSArray * modelArray =  dict[@"statuses"];
-    NSLog(@"%@", modelArray);
     NSMutableArray *statusArray =  [JFStatus objectArrayWithKeyValuesArray:modelArray];
     NSMutableArray *statusFrameArray = [NSMutableArray array];
     for (JFStatus *status in statusArray) {
