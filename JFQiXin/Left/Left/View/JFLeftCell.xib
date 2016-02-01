@@ -13,7 +13,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Left_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="7X1-3Q-oX3">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconweilidong.png" translatesAutoresizingMaskIntoConstraints="NO" id="7X1-3Q-oX3">
                         <rect key="frame" x="15" y="13" width="34" height="31"/>
                         <animations/>
                     </imageView>
@@ -36,6 +36,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="Left_icon.png" width="200" height="200"/>
+        <image name="iconweilidong.png" width="283" height="246"/>
     </resources>
 </document>
