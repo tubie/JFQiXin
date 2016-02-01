@@ -12,19 +12,11 @@
 //设备的宽高
 #define JFSCREENHEIGHT      [UIScreen mainScreen].bounds.size.height
 #define JFSCREENWIDTH       [UIScreen mainScreen].bounds.size.width
-#define HEIGHT_STATUSBAR	20
-#define HEIGHT_TABBAR       49
-#define HEIGHT_NAVBAR       44
 //获取颜色
 #define RGBA(r, g, b, a)                    [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 #define RGB(r, g, b)                        RGBA(r, g, b, 1.0f)
 #define navigationBarColor RGB(6, 190, 4)
 #define separaterColor RGB(200, 199, 204)
-
-#define     DEFAULT_NAVBAR_COLOR             RGBA(20.0, 20.0, 20.0, 0.9)
-#define     DEFAULT_BACKGROUND_COLOR         RGBA(239.0, 239.0, 244.0, 1.0)
-#define     DEFAULT_SEARCHBAR_COLOR          RGBA(239.0, 239.0, 244.0, 1.0)
-#define     DEFAULT_NAVBAR_COLOR             RGBA(20.0, 20.0, 20.0, 0.9)
 
 //字体
 #define kFONT16                  [UIFont systemFontOfSize:16.0f]

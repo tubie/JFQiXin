@@ -1071,36 +1071,6 @@
 		938974BB1C3A85DC00F101F5 /* timeline_card_rightbottom_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 938974B91C3A85DC00F101F5 /* timeline_card_rightbottom_highlighted@2x.png */; };
 		93B6CBA11C4CBBEF0082848A /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBA01C4CBBEF0082848A /* chat.png */; };
 		93B6CBA91C4CC1BC0082848A /* Left_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBA81C4CC1BC0082848A /* Left_icon.png */; };
-		93B6CBCB1C4E2F860082848A /* JFAddressBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B6CBC91C4E2F860082848A /* JFAddressBookCell.m */; };
-		93B6CBCC1C4E2F860082848A /* JFAddressBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBCA1C4E2F860082848A /* JFAddressBookCell.xib */; };
-		93B6CBCE1C4E308D0082848A /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBCD1C4E308D0082848A /* citydict.plist */; };
-		93B6CBD11C4E33540082848A /* JFAddressBookHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B6CBD01C4E33540082848A /* JFAddressBookHeadView.m */; };
-		93B6CBD31C4E44450082848A /* JFAddressBookHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBD21C4E44450082848A /* JFAddressBookHeadView.xib */; };
-		93B6CBD71C4E46A80082848A /* JFSearchAddressBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B6CBD51C4E46A80082848A /* JFSearchAddressBookCell.m */; };
-		93B6CBD81C4E46A80082848A /* JFSearchAddressBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBD61C4E46A80082848A /* JFSearchAddressBookCell.xib */; };
-		93B6CBDB1C4E5EF40082848A /* JFUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B6CBDA1C4E5EF40082848A /* JFUserModel.m */; };
-		93B6CBDE1C4E62C60082848A /* JFCommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B6CBDD1C4E62C60082848A /* JFCommonTableViewController.m */; };
-		93B6CBE11C4E62F80082848A /* JFSearchFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B6CBE01C4E62F80082848A /* JFSearchFriendViewController.m */; };
-		93B6CBE41C4E6E450082848A /* JFDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B6CBE31C4E6E450082848A /* JFDataHelper.m */; };
-		93B6CBF61C4E71620082848A /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBE61C4E71620082848A /* 0.jpg */; };
-		93B6CBF71C4E71620082848A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBE71C4E71620082848A /* 1.jpg */; };
-		93B6CBF81C4E71620082848A /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBE81C4E71620082848A /* 10.jpeg */; };
-		93B6CBF91C4E71620082848A /* 1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBE91C4E71620082848A /* 1000.jpg */; };
-		93B6CBFA1C4E71620082848A /* 1001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBEA1C4E71620082848A /* 1001.jpg */; };
-		93B6CBFB1C4E71620082848A /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBEB1C4E71620082848A /* 11.jpg */; };
-		93B6CBFC1C4E71620082848A /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBEC1C4E71620082848A /* 12.jpg */; };
-		93B6CBFD1C4E71620082848A /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBED1C4E71620082848A /* 2.jpg */; };
-		93B6CBFE1C4E71620082848A /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBEE1C4E71620082848A /* 4.jpg */; };
-		93B6CBFF1C4E71620082848A /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBEF1C4E71620082848A /* 7.jpg */; };
-		93B6CC001C4E71620082848A /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBF01C4E71620082848A /* 8.jpg */; };
-		93B6CC011C4E71620082848A /* Discover.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBF11C4E71620082848A /* Discover.xcassets */; };
-		93B6CC021C4E71620082848A /* Friends.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBF21C4E71620082848A /* Friends.xcassets */; };
-		93B6CC031C4E71620082848A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBF31C4E71620082848A /* Images.xcassets */; };
-		93B6CC041C4E71620082848A /* Mine.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBF41C4E71620082848A /* Mine.xcassets */; };
-		93B6CC051C4E71620082848A /* Weixin.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B6CBF51C4E71620082848A /* Weixin.xcassets */; };
-		93FBA8811C4F833500FD9656 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FBA8801C4F833500FD9656 /* girl.png */; };
-		93FBA8841C4F845B00FD9656 /* JFSearchHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FBA8831C4F845B00FD9656 /* JFSearchHeaderView.m */; };
-		93FBA8861C4F847900FD9656 /* JFSearchHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FBA8851C4F847900FD9656 /* JFSearchHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -2241,44 +2211,6 @@
 		938974B91C3A85DC00F101F5 /* timeline_card_rightbottom_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline_card_rightbottom_highlighted@2x.png"; sourceTree = "<group>"; };
 		93B6CBA01C4CBBEF0082848A /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
 		93B6CBA81C4CC1BC0082848A /* Left_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Left_icon.png; sourceTree = "<group>"; };
-		93B6CBC81C4E2F860082848A /* JFAddressBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAddressBookCell.h; sourceTree = "<group>"; };
-		93B6CBC91C4E2F860082848A /* JFAddressBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFAddressBookCell.m; sourceTree = "<group>"; };
-		93B6CBCA1C4E2F860082848A /* JFAddressBookCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFAddressBookCell.xib; sourceTree = "<group>"; };
-		93B6CBCD1C4E308D0082848A /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
-		93B6CBCF1C4E33540082848A /* JFAddressBookHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAddressBookHeadView.h; sourceTree = "<group>"; };
-		93B6CBD01C4E33540082848A /* JFAddressBookHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFAddressBookHeadView.m; sourceTree = "<group>"; };
-		93B6CBD21C4E44450082848A /* JFAddressBookHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFAddressBookHeadView.xib; sourceTree = "<group>"; };
-		93B6CBD41C4E46A80082848A /* JFSearchAddressBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSearchAddressBookCell.h; sourceTree = "<group>"; };
-		93B6CBD51C4E46A80082848A /* JFSearchAddressBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSearchAddressBookCell.m; sourceTree = "<group>"; };
-		93B6CBD61C4E46A80082848A /* JFSearchAddressBookCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFSearchAddressBookCell.xib; sourceTree = "<group>"; };
-		93B6CBD91C4E5EF40082848A /* JFUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFUserModel.h; sourceTree = "<group>"; };
-		93B6CBDA1C4E5EF40082848A /* JFUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFUserModel.m; sourceTree = "<group>"; };
-		93B6CBDC1C4E62C60082848A /* JFCommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCommonTableViewController.h; sourceTree = "<group>"; };
-		93B6CBDD1C4E62C60082848A /* JFCommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCommonTableViewController.m; sourceTree = "<group>"; };
-		93B6CBDF1C4E62F80082848A /* JFSearchFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSearchFriendViewController.h; sourceTree = "<group>"; };
-		93B6CBE01C4E62F80082848A /* JFSearchFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSearchFriendViewController.m; sourceTree = "<group>"; };
-		93B6CBE21C4E6E450082848A /* JFDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDataHelper.h; sourceTree = "<group>"; };
-		93B6CBE31C4E6E450082848A /* JFDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDataHelper.m; sourceTree = "<group>"; };
-		93B6CBE61C4E71620082848A /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
-		93B6CBE71C4E71620082848A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		93B6CBE81C4E71620082848A /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
-		93B6CBE91C4E71620082848A /* 1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1000.jpg; sourceTree = "<group>"; };
-		93B6CBEA1C4E71620082848A /* 1001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1001.jpg; sourceTree = "<group>"; };
-		93B6CBEB1C4E71620082848A /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
-		93B6CBEC1C4E71620082848A /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
-		93B6CBED1C4E71620082848A /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		93B6CBEE1C4E71620082848A /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
-		93B6CBEF1C4E71620082848A /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
-		93B6CBF01C4E71620082848A /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
-		93B6CBF11C4E71620082848A /* Discover.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Discover.xcassets; sourceTree = "<group>"; };
-		93B6CBF21C4E71620082848A /* Friends.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Friends.xcassets; sourceTree = "<group>"; };
-		93B6CBF31C4E71620082848A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		93B6CBF41C4E71620082848A /* Mine.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Mine.xcassets; sourceTree = "<group>"; };
-		93B6CBF51C4E71620082848A /* Weixin.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Weixin.xcassets; sourceTree = "<group>"; };
-		93FBA8801C4F833500FD9656 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
-		93FBA8821C4F845B00FD9656 /* JFSearchHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSearchHeaderView.h; sourceTree = "<group>"; };
-		93FBA8831C4F845B00FD9656 /* JFSearchHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSearchHeaderView.m; sourceTree = "<group>"; };
-		93FBA8851C4F847900FD9656 /* JFSearchHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFSearchHeaderView.xib; sourceTree = "<group>"; };
 		B3A4BBE7D9D8FB4A01F40D25 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C4D8A0DA9BB92A6C9907FA73 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2389,7 +2321,6 @@
 		7DDF13C01BD91261001F78A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				93B6CBE51C4E71620082848A /* images */,
 				7DE83AD51BDA09AF00AF08D8 /* JFQiXinImage */,
 				7DDF14001BD9285F001F78A7 /* Stars@2x.png */,
 				7DDF13FE1BD92838001F78A7 /* Balloon@2x.png */,
@@ -2438,7 +2369,6 @@
 				7DE120BE1BDD09E1008B873C /* 1.plist */,
 				7DE120BC1BDD09A3008B873C /* Message.plist */,
 				93410C321C32D301001C2131 /* FriendDynamic.plist */,
-				93B6CBCD1C4E308D0082848A /* citydict.plist */,
 			);
 			name = "Libs(资源库)";
 			path = Libs;
@@ -2655,10 +2585,6 @@
 			children = (
 				7DE659221BDDB36B00511CFC /* JFAddressBookViewController.h */,
 				7DE659231BDDB36B00511CFC /* JFAddressBookViewController.m */,
-				93B6CBDC1C4E62C60082848A /* JFCommonTableViewController.h */,
-				93B6CBDD1C4E62C60082848A /* JFCommonTableViewController.m */,
-				93B6CBDF1C4E62F80082848A /* JFSearchFriendViewController.h */,
-				93B6CBE01C4E62F80082848A /* JFSearchFriendViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2666,8 +2592,6 @@
 		7DE83A7F1BD9BA0D00AF08D8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				93B6CBD91C4E5EF40082848A /* JFUserModel.h */,
-				93B6CBDA1C4E5EF40082848A /* JFUserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -2675,18 +2599,6 @@
 		7DE83A801BD9BA0D00AF08D8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				93B6CBC81C4E2F860082848A /* JFAddressBookCell.h */,
-				93B6CBC91C4E2F860082848A /* JFAddressBookCell.m */,
-				93B6CBCA1C4E2F860082848A /* JFAddressBookCell.xib */,
-				93B6CBCF1C4E33540082848A /* JFAddressBookHeadView.h */,
-				93B6CBD01C4E33540082848A /* JFAddressBookHeadView.m */,
-				93B6CBD21C4E44450082848A /* JFAddressBookHeadView.xib */,
-				93FBA8821C4F845B00FD9656 /* JFSearchHeaderView.h */,
-				93FBA8831C4F845B00FD9656 /* JFSearchHeaderView.m */,
-				93FBA8851C4F847900FD9656 /* JFSearchHeaderView.xib */,
-				93B6CBD41C4E46A80082848A /* JFSearchAddressBookCell.h */,
-				93B6CBD51C4E46A80082848A /* JFSearchAddressBookCell.m */,
-				93B6CBD61C4E46A80082848A /* JFSearchAddressBookCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2979,8 +2891,6 @@
 				7DDC7BAE1BDC68D800299EF9 /* JFViewController.m */,
 				93410C441C33AA67001C2131 /* LoadPlist.h */,
 				93410C451C33AA67001C2131 /* LoadPlist.m */,
-				93B6CBE21C4E6E450082848A /* JFDataHelper.h */,
-				93B6CBE31C4E6E450082848A /* JFDataHelper.m */,
 			);
 			name = "ToolClass(工具类)";
 			path = ToolClass;
@@ -2989,7 +2899,6 @@
 		7DE83AD51BDA09AF00AF08D8 /* JFQiXinImage */ = {
 			isa = PBXGroup;
 			children = (
-				93FBA8801C4F833500FD9656 /* girl.png */,
 				93B6CBA81C4CC1BC0082848A /* Left_icon.png */,
 				93B6CBA01C4CBBEF0082848A /* chat.png */,
 				938974B81C3A85DC00F101F5 /* timeline_card_rightbottom_highlighted.png */,
@@ -4062,29 +3971,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		93B6CBE51C4E71620082848A /* images */ = {
-			isa = PBXGroup;
-			children = (
-				93B6CBE61C4E71620082848A /* 0.jpg */,
-				93B6CBE71C4E71620082848A /* 1.jpg */,
-				93B6CBE81C4E71620082848A /* 10.jpeg */,
-				93B6CBE91C4E71620082848A /* 1000.jpg */,
-				93B6CBEA1C4E71620082848A /* 1001.jpg */,
-				93B6CBEB1C4E71620082848A /* 11.jpg */,
-				93B6CBEC1C4E71620082848A /* 12.jpg */,
-				93B6CBED1C4E71620082848A /* 2.jpg */,
-				93B6CBEE1C4E71620082848A /* 4.jpg */,
-				93B6CBEF1C4E71620082848A /* 7.jpg */,
-				93B6CBF01C4E71620082848A /* 8.jpg */,
-				93B6CBF11C4E71620082848A /* Discover.xcassets */,
-				93B6CBF21C4E71620082848A /* Friends.xcassets */,
-				93B6CBF31C4E71620082848A /* Images.xcassets */,
-				93B6CBF41C4E71620082848A /* Mine.xcassets */,
-				93B6CBF51C4E71620082848A /* Weixin.xcassets */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
 		D2F93CB61F939CA07D4F3B8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -4157,9 +4043,7 @@
 				7DE83EED1BDA09B400AF08D8 /* contacts_phone@2x.png in Resources */,
 				938974A21C3A853500F101F5 /* timeline_card_leftbottom_highlighted.png in Resources */,
 				7DE840071BDA09B400AF08D8 /* logIn_AddCompany@3x.png in Resources */,
-				93B6CBF61C4E71620082848A /* 0.jpg in Resources */,
 				7DE840B01BDA09B400AF08D8 /* scheduleCenter_record3@2x.png in Resources */,
-				93B6CBFE1C4E71620082848A /* 4.jpg in Resources */,
 				7DE83F951BDA09B400AF08D8 /* Expression_69@2x.png in Resources */,
 				7DDF13D01BD91262001F78A7 /* LaunchScreen.storyboard in Resources */,
 				7DE83EEC1BDA09B400AF08D8 /* contacts_organise@2x.png in Resources */,
@@ -4202,7 +4086,6 @@
 				7DE841541BDA09B400AF08D8 /* tabbar_message@2x.png in Resources */,
 				7DE83EF21BDA09B400AF08D8 /* contacts_seleted_btn@2x.png in Resources */,
 				7DE841431BDA09B400AF08D8 /* signIn_share@2x.png in Resources */,
-				93B6CBFF1C4E71620082848A /* 7.jpg in Resources */,
 				7DE8411B1BDA09B400AF08D8 /* sign_mapReduce@2x.png in Resources */,
 				7DE1212A1BDD2240008B873C /* chat_bottom_voice_nor@2x.png in Resources */,
 				7DE8413E1BDA09B400AF08D8 /* signIn_gps@2x.png in Resources */,
@@ -4303,7 +4186,6 @@
 				7DE83FC11BDA09B400AF08D8 /* fenge@2x.png in Resources */,
 				7DE83EAB1BDA09B400AF08D8 /* calendar_clear-disabled@2x.png in Resources */,
 				7DE83F0A1BDA09B400AF08D8 /* dialog_ok.png in Resources */,
-				93B6CC031C4E71620082848A /* Images.xcassets in Resources */,
 				7DE841E91BDA09B400AF08D8 /* work_at@2x.png in Resources */,
 				7DE83FFD1BDA09B400AF08D8 /* know_doucment@2x.png in Resources */,
 				7DE83F241BDA09B400AF08D8 /* dy_schduleIcon@2x.png in Resources */,
@@ -4382,7 +4264,6 @@
 				938974AF1C3A859800F101F5 /* timeline_card_middlebottom_highlighted@2x.png in Resources */,
 				7DE840E01BDA09B400AF08D8 /* Shake_icon_peopleHL@2x.png in Resources */,
 				7DE83FBC1BDA09B400AF08D8 /* faceDelete@2x.png in Resources */,
-				93FBA8861C4F847900FD9656 /* JFSearchHeaderView.xib in Resources */,
 				7D06C6651BE8522F004934BF /* icon_line.png in Resources */,
 				7DE83F641BDA09B400AF08D8 /* Expression_24@2x.png in Resources */,
 				7DDF13CD1BD91262001F78A7 /* Assets.xcassets in Resources */,
@@ -4455,7 +4336,6 @@
 				7DE120E51BDD1EAF008B873C /* messages.plist in Resources */,
 				7DE83E901BDA09B400AF08D8 /* applyInfo_plus@3x.png in Resources */,
 				7DE83EFF1BDA09B400AF08D8 /* departMent@3x.png in Resources */,
-				93B6CC001C4E71620082848A /* 8.jpg in Resources */,
 				7DE8400D1BDA09B400AF08D8 /* login_animal15@2x.png in Resources */,
 				7DE83ED01BDA09B400AF08D8 /* chatinfo_add_people@2x.png in Resources */,
 				7DE83F171BDA09B400AF08D8 /* dy_knowledge@2x.png in Resources */,
@@ -4485,7 +4365,6 @@
 				7DE121271BDD2240008B873C /* chat_bottom_textfield@2x.png in Resources */,
 				7DE841A41BDA09B400AF08D8 /* task_sh_noSelected@2x.png in Resources */,
 				7DE840981BDA09B400AF08D8 /* schedue_workIcon@2x.png in Resources */,
-				93B6CBFD1C4E71620082848A /* 2.jpg in Resources */,
 				7DE841A61BDA09B400AF08D8 /* task_sh_selected@2x.png in Resources */,
 				7DE841501BDA09B400AF08D8 /* tabbar_appcenter@2x.png in Resources */,
 				934232C81C316305007D89A6 /* shareBottomBackground@3x.png in Resources */,
@@ -4564,7 +4443,6 @@
 				7DE83F3B1BDA09B400AF08D8 /* dyShareSignOut@3x.png in Resources */,
 				7DE840171BDA09B400AF08D8 /* login_animal24@2x.png in Resources */,
 				7DE8419F1BDA09B400AF08D8 /* task_schdulePoint@2x.png in Resources */,
-				93B6CC021C4E71620082848A /* Friends.xcassets in Resources */,
 				7DE840901BDA09B400AF08D8 /* right_baritem@2x.png in Resources */,
 				7DE83F8E1BDA09B400AF08D8 /* Expression_62@2x.png in Resources */,
 				7DE83EAE1BDA09B400AF08D8 /* calendar_littledot.png in Resources */,
@@ -4610,7 +4488,6 @@
 				7DE840CF1BDA09B400AF08D8 /* SenderVoiceNodePlaying002@2x.png in Resources */,
 				7DE841881BDA09B400AF08D8 /* task_joinPerson_noSelected@2x.png in Resources */,
 				7DE8417F1BDA09B400AF08D8 /* task_generalTask_selected@2x.png in Resources */,
-				93B6CBCC1C4E2F860082848A /* JFAddressBookCell.xib in Resources */,
 				7DE83ECB1BDA09B400AF08D8 /* chat_right_personicon@2x.png in Resources */,
 				7D06C6671BE8522F004934BF /* icon_line@3x.png in Resources */,
 				7DE83F7A1BDA09B400AF08D8 /* Expression_44@2x.png in Resources */,
@@ -4636,7 +4513,6 @@
 				7DE841681BDA09B400AF08D8 /* task_date@2x.png in Resources */,
 				7DE8406E1BDA09B400AF08D8 /* register_input@2x.png in Resources */,
 				7DE83F281BDA09B400AF08D8 /* dy_task@2x.png in Resources */,
-				93B6CBF81C4E71620082848A /* 10.jpeg in Resources */,
 				7DE841EB1BDA09B400AF08D8 /* work_bq@2x.png in Resources */,
 				7DE120F61BDD1F04008B873C /* icon_ smileBtn.png in Resources */,
 				7DE842141BDA09B400AF08D8 /* work_Record3@2x.png in Resources */,
@@ -4686,7 +4562,6 @@
 				7DE83F511BDA09B400AF08D8 /* Expression_102@2x.png in Resources */,
 				7DE83EE81BDA09B400AF08D8 /* contacts_menu_selected@2x.png in Resources */,
 				7DE840D11BDA09B400AF08D8 /* SenderVoiceNodePlaying@2x.png in Resources */,
-				93B6CBFB1C4E71620082848A /* 11.jpg in Resources */,
 				7DE841411BDA09B400AF08D8 /* signIn_out2@2x.png in Resources */,
 				7DE83F211BDA09B400AF08D8 /* dy_pic@2x.png in Resources */,
 				7DE841D21BDA09B400AF08D8 /* troduction_568_6@2x.jpg in Resources */,
@@ -4717,7 +4592,6 @@
 				7DE83F741BDA09B400AF08D8 /* Expression_39@2x.png in Resources */,
 				7DE83F8A1BDA09B400AF08D8 /* Expression_59@2x.png in Resources */,
 				7DE83FA91BDA09B400AF08D8 /* Expression_87@2x.png in Resources */,
-				93B6CBF71C4E71620082848A /* 1.jpg in Resources */,
 				7DE83FA51BDA09B400AF08D8 /* Expression_83@2x.png in Resources */,
 				7DE83F5D1BDA09B400AF08D8 /* Expression_18@2x.png in Resources */,
 				7DE841491BDA09B400AF08D8 /* signOutDisable@2x.png in Resources */,
@@ -4776,7 +4650,6 @@
 				7DE8402C1BDA09B400AF08D8 /* message_interphone05@2x.png in Resources */,
 				7DE840D21BDA09B400AF08D8 /* sendmsgsuc.caf in Resources */,
 				938974B41C3A85BC00F101F5 /* timeline_icon_unlike.png in Resources */,
-				93B6CC011C4E71620082848A /* Discover.xcassets in Resources */,
 				938974A91C3A856900F101F5 /* timeline_icon_comment@2x.png in Resources */,
 				938974971C3A84BC00F101F5 /* timeline_card_bottom_background@2x.png in Resources */,
 				7DE840231BDA09B400AF08D8 /* login_userName@2x.png in Resources */,
@@ -4790,7 +4663,6 @@
 				7DE841671BDA09B400AF08D8 /* task_commentUp@2x.png in Resources */,
 				7DE841811BDA09B400AF08D8 /* task_going_noSelected@2x.png in Resources */,
 				7DE8413F1BDA09B400AF08D8 /* signIn_greenSignOut@2x.png in Resources */,
-				93B6CBCE1C4E308D0082848A /* citydict.plist in Resources */,
 				93410BF51C32669F001C2131 /* app_slogan.png in Resources */,
 				7DE8420D1BDA09B400AF08D8 /* work_play2@2x.png in Resources */,
 				7DE842261BDA09B400AF08D8 /* workView_Cancel.png in Resources */,
@@ -4813,7 +4685,6 @@
 				7DE83F881BDA09B400AF08D8 /* Expression_57@2x.png in Resources */,
 				7DE83ED71BDA09B400AF08D8 /* common_back@2x.png in Resources */,
 				7DE83EA71BDA09B400AF08D8 /* btn_close_normal@2x.png in Resources */,
-				93B6CBD31C4E44450082848A /* JFAddressBookHeadView.xib in Resources */,
 				7DE840581BDA09B400AF08D8 /* quitCompbg@2x.png in Resources */,
 				7DE83F9E1BDA09B400AF08D8 /* Expression_77@2x.png in Resources */,
 				7DE8419A1BDA09B400AF08D8 /* task_responser_selected@3x.png in Resources */,
@@ -4821,7 +4692,6 @@
 				934232C61C316305007D89A6 /* shareBottomBackground.png in Resources */,
 				7DE8407E1BDA09B400AF08D8 /* response_notice@2x.png in Resources */,
 				7DE83FD51BDA09B400AF08D8 /* home_right_chat_icon@2x.png in Resources */,
-				93B6CBFC1C4E71620082848A /* 12.jpg in Resources */,
 				7DE840961BDA09B400AF08D8 /* scanLine@3x.png in Resources */,
 				7DDF13FF1BD92838001F78A7 /* Balloon@2x.png in Resources */,
 				7DE83EB61BDA09B400AF08D8 /* ch2_qiandaodaka_bg_new@2x.png in Resources */,
@@ -4836,7 +4706,6 @@
 				7DE840A81BDA09B400AF08D8 /* schedule_smallpoint@2x.png in Resources */,
 				7DE841371BDA09B400AF08D8 /* signDisabel@3x.png in Resources */,
 				7DE841631BDA09B400AF08D8 /* task_bg@2x.png in Resources */,
-				93B6CC051C4E71620082848A /* Weixin.xcassets in Resources */,
 				7DE840321BDA09B400AF08D8 /* multiMedia_HL@2x.png in Resources */,
 				7DE83F4F1BDA09B400AF08D8 /* Expression_100@2x.png in Resources */,
 				7DE840841BDA09B400AF08D8 /* response_type_0_selected@2x.png in Resources */,
@@ -4873,7 +4742,6 @@
 				7DE83F1F1BDA09B400AF08D8 /* dy_news@2x.png in Resources */,
 				7DE841321BDA09B400AF08D8 /* sign_workStatistics@3x.png in Resources */,
 				7DE83F441BDA09B400AF08D8 /* dySmallShareThird@2x.png in Resources */,
-				93FBA8811C4F833500FD9656 /* girl.png in Resources */,
 				7DE83F4D1BDA09B400AF08D8 /* event_reback@2x.png in Resources */,
 				938974BA1C3A85DC00F101F5 /* timeline_card_rightbottom_highlighted.png in Resources */,
 				7DE83F1E1BDA09B400AF08D8 /* dy_newdy@2x.png in Resources */,
@@ -4902,7 +4770,6 @@
 				7DE83F571BDA09B400AF08D8 /* Expression_12@2x.png in Resources */,
 				7DE840441BDA09B400AF08D8 /* org_checked@2x.png in Resources */,
 				7DE83EBA1BDA09B400AF08D8 /* ch_fabudongtai_bg_new@2x.png in Resources */,
-				93B6CBFA1C4E71620082848A /* 1001.jpg in Resources */,
 				7DE842031BDA09B400AF08D8 /* work_konwledge@2x.png in Resources */,
 				7DE841801BDA09B400AF08D8 /* task_generalTask_selected@3x.png in Resources */,
 				7DE841E61BDA09B400AF08D8 /* work_add_btn_ensure@2x.png in Resources */,
@@ -5003,10 +4870,8 @@
 				7DE83FE61BDA09B400AF08D8 /* Info.plist in Resources */,
 				7DE8416E1BDA09B400AF08D8 /* task_delayimg@2x.png in Resources */,
 				7DE8415C1BDA09B400AF08D8 /* task_allroles_noSelected@2x.png in Resources */,
-				93B6CBD81C4E46A80082848A /* JFSearchAddressBookCell.xib in Resources */,
 				7DE840261BDA09B400AF08D8 /* man@2x.png in Resources */,
 				7DE83ECC1BDA09B400AF08D8 /* chat_sendmsg_fail@2x.png in Resources */,
-				93B6CC041C4E71620082848A /* Mine.xcassets in Resources */,
 				7DE841D11BDA09B400AF08D8 /* troduction_568_5@2x.jpg in Resources */,
 				7DDF13F01BD91B03001F78A7 /* left.jpg in Resources */,
 				7DE83F781BDA09B400AF08D8 /* Expression_42@2x.png in Resources */,
@@ -5115,7 +4980,6 @@
 				7DE83F481BDA09B400AF08D8 /* event_auditor@2x.png in Resources */,
 				7DE83EB51BDA09B400AF08D8 /* ch2_fabutongzhi_bg_new@2x.png in Resources */,
 				7DE120FA1BDD1F04008B873C /* icon_addBtn@2x.png in Resources */,
-				93B6CBF91C4E71620082848A /* 1000.jpg in Resources */,
 				7DDA79BD1BDA7770008D038C /* ico_make.png in Resources */,
 				7D06C6611BE83831004934BF /* iconweilidong.png in Resources */,
 				7DE83EE01BDA09B400AF08D8 /* contacta_sendMessage@2x.png in Resources */,
@@ -5229,10 +5093,8 @@
 				7DDF13C81BD91262001F78A7 /* ViewController.m in Sources */,
 				931060241C33C50A005BAAAB /* MJPhotoView.m in Sources */,
 				931060251C33C50A005BAAAB /* SDWebImageManager+MJ.m in Sources */,
-				93FBA8841C4F845B00FD9656 /* JFSearchHeaderView.m in Sources */,
 				93410C201C32CE00001C2131 /* JFHomeTaskCenterViewController.m in Sources */,
 				93410C461C33AA67001C2131 /* LoadPlist.m in Sources */,
-				93B6CBD71C4E46A80082848A /* JFSearchAddressBookCell.m in Sources */,
 				7DE83ACE1BD9C73300AF08D8 /* SelectRootViewController.m in Sources */,
 				93410C281C32CE00001C2131 /* JFAddTaskButton.m in Sources */,
 				9310601E1C33C50A005BAAAB /* MJPhoto.m in Sources */,
@@ -5241,7 +5103,6 @@
 				7DDA79C51BDA886E008D038C /* JFCalendarPickerView.m in Sources */,
 				7DE83AA21BD9BA0E00AF08D8 /* JFLeftViewController.m in Sources */,
 				7DE120DA1BDD18F6008B873C /* JFMessageCell.m in Sources */,
-				93B6CBE11C4E62F80082848A /* JFSearchFriendViewController.m in Sources */,
 				93410C271C32CE00001C2131 /* JFMessageListModel.m in Sources */,
 				93410C291C32CE00001C2131 /* JFHomeCompanyNameCell.m in Sources */,
 				931060211C33C50A005BAAAB /* MJPhotoLoadingView.m in Sources */,
@@ -5253,14 +5114,11 @@
 				93410C581C33B2C3001C2131 /* JFStatusCell.m in Sources */,
 				93410C4F1C33B244001C2131 /* JFStatusTopView.m in Sources */,
 				93410C431C33A463001C2131 /* JFStatusFrame.m in Sources */,
-				93B6CBD11C4E33540082848A /* JFAddressBookHeadView.m in Sources */,
-				93B6CBDB1C4E5EF40082848A /* JFUserModel.m in Sources */,
 				7DDC7BB31BDC695900299EF9 /* JFHomeTodayTaskViewController.m in Sources */,
 				7DE6593B1BDDF66100511CFC /* JFSettingExitFootView.m in Sources */,
 				7DE120DD1BDD1AC1008B873C /* JFSendMessageViewController.m in Sources */,
 				7DE83ACA1BD9C47600AF08D8 /* UIBarButtonItem+JFBarButtonItem.m in Sources */,
 				7DDA79C91BDA887D008D038C /* JFCollectionViewCell.m in Sources */,
-				93B6CBDE1C4E62C60082848A /* JFCommonTableViewController.m in Sources */,
 				93410C5E1C33B4B4001C2131 /* NSDate+JFDate.m in Sources */,
 				7DE120E31BDD1BDC008B873C /* UIImage+Extension.m in Sources */,
 				7DE659241BDDB36B00511CFC /* JFAddressBookViewController.m in Sources */,
@@ -5277,7 +5135,6 @@
 				93410C4C1C33B201001C2131 /* JFPhotosView.m in Sources */,
 				7DE83AA61BD9BA0E00AF08D8 /* JFLeftHeaderView.m in Sources */,
 				931060221C33C50A005BAAAB /* MJPhotoProgressView.m in Sources */,
-				93B6CBE41C4E6E450082848A /* JFDataHelper.m in Sources */,
 				7DE120D81BDD18F6008B873C /* JFMessageFrame.m in Sources */,
 				93410C2F1C32CE00001C2131 /* JFMenuBoxBtton.m in Sources */,
 				7DDDDE1E1BDBB29800058752 /* JFNavigationController.m in Sources */,
@@ -5300,7 +5157,6 @@
 				7DDA79BB1BDA76A3008D038C /* JSDropDownMenu.m in Sources */,
 				7DE83AC01BD9BC1A00AF08D8 /* JFOrganizationSwitchViewController.m in Sources */,
 				7DDC7BAF1BDC68D800299EF9 /* JFViewController.m in Sources */,
-				93B6CBCB1C4E2F860082848A /* JFAddressBookCell.m in Sources */,
 				93410C491C33B1BF001C2131 /* JFPhotoView.m in Sources */,
 				7DDF13C21BD91262001F78A7 /* main.m in Sources */,
 				7DE83AC31BD9BC3100AF08D8 /* JFSettingViewController.m in Sources */,

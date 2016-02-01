@@ -41,7 +41,7 @@
 }
 
 -(void)initData{
-    self.organizationSwitchArray = @[@"上海XXX软件科技有限公司",@"腾讯",@"百度",@"阿里"];
+    self.organizationSwitchArray = @[@"上海泛微软件科技有限公司",@"腾讯",@"百度",@"阿里"];
     
 }
 

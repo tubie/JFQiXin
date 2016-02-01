@@ -21,7 +21,4 @@
  *  给定一个字符串隐藏部分然后重新拼接后返回
  */
 -(NSString *)hindPartOfString:(NSString *)string;
-
-- (NSString *) pinyin;
-- (NSString *) pinyinInitial;
 @end
