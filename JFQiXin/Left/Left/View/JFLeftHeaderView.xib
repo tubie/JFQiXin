@@ -17,7 +17,7 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconweilidong.png" translatesAutoresizingMaskIntoConstraints="NO" id="a8e-D9-Cqn">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="monkey.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="a8e-D9-Cqn">
                     <rect key="frame" x="13" y="16" width="68" height="74"/>
                     <animations/>
                 </imageView>
@@ -37,6 +37,6 @@
         </view>
     </objects>
     <resources>
-        <image name="iconweilidong.png" width="283" height="246"/>
+        <image name="monkey.jpg" width="564" height="647"/>
     </resources>
 </document>
