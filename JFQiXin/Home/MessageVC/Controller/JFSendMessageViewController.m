@@ -61,13 +61,15 @@
 }
 -(void)initNav{
     self.title = @"聊天中。。。";
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor clearColor];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"scenery_icon_chat"]];
 }
 
 
 -(void)initView{
     self.sendMessageTableView = [UITableView initWithTableView:CGRectMake(0, 0, JFSCREENWIDTH, JFSCREENHEIGHT-64-49) withDelegate:self];
-    self.sendMessageTableView.backgroundColor = [UIColor lightGrayColor];
+    self.sendMessageTableView.backgroundColor = [UIColor clearColor];
+    
     [self.view addSubview:self.sendMessageTableView];
 
 }
