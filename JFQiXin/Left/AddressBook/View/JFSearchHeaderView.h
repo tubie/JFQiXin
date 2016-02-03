@@ -2,9 +2,8 @@
 //  JFSearchHeaderView.h
 //  JFQiXin
 //
-//  Created by jianfanglin on 16/2/3.
-//  Copyright © 2016年 JF. All rights reserved.
-//
+//项目详解：http://www.jianshu.com/p/87b9194c4b01
+//源码：   https://github.com/tubie/JFQiXin
 
 #import <UIKit/UIKit.h>
 

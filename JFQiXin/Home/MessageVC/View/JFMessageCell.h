@@ -2,9 +2,8 @@
 //  JFMessageCell.h
 //  baoxiu51
 //
-//  Created by 保修一站通 on 15/7/20.
-//  Copyright (c) 2015年 baoxiuyizhantong. All rights reserved.
-//
+//项目详解：http://www.jianshu.com/p/87b9194c4b01
+//源码：   https://github.com/tubie/JFQiXin
 
 #import <UIKit/UIKit.h>
 @class JFMessageFrame;

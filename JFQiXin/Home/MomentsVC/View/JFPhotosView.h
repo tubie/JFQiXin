@@ -2,9 +2,8 @@
 //  JFPhotosView.h
 //  JFQiXin
 //
-//  Created by jianfanglin on 15/12/30.
-//  Copyright © 2015年 JF. All rights reserved.
-//
+//项目详解：http://www.jianshu.com/p/87b9194c4b01
+//源码：   https://github.com/tubie/JFQiXin
 
 #import <UIKit/UIKit.h>
 

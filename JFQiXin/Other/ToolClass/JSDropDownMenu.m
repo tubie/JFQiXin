@@ -1,10 +1,8 @@
 //
 //  JSDropDownMenu.m
 //  JSDropDownMenu
-//
-//  Created by Jsfu on 15-1-12.
-//  Copyright (c) 2015年 jsfu. All rights reserved.
-//
+//项目详解：http://www.jianshu.com/p/87b9194c4b01
+//源码：   https://github.com/tubie/JFQiXin
 
 #import "JSDropDownMenu.h"
 
