@@ -2,7 +2,7 @@
 高仿企信
 #项目详解：
 [点击项目详解链接](http://www.jianshu.com/p/2156ec56c55b)
-##欢迎指出高仿土豆的不足之处，我会非常开心^_^ 
+##欢迎指出高仿企信的不足之处，我会非常开心^_^ 
 
 
 [点击新浪微博主页](http://weibo.com/3876651083/profile?rightmod=1&wvr=6&mod=personinfo)
