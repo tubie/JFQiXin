@@ -30,7 +30,6 @@
     [super viewDidLoad];
     
     [self initView];
-
 }
 
 -(void)initView{
