@@ -7,7 +7,7 @@
 //
 
 #import "JFHomeTodayTaskViewController.h"
-
+#import "JFWebViewController.h"
 @interface JFHomeTodayTaskViewController ()
 
 @end
@@ -17,7 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"今日任务";
-    // Do any additional setup after loading the view from its nib.
+    
+    [self initView];
+}
+
+-(void)initView{
+    JFWebViewController *webVC = [[JFWebViewController alloc]init];
+    webVC.urlStr = @"https://github.com/tubie/JFQiXin";
+    [self.view addSubview:webVC.view];
+
 }
 
 - (void)didReceiveMemoryWarning {

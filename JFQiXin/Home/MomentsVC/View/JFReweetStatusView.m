@@ -14,11 +14,11 @@
 #import "JFPhotosView.h"
 
 @interface JFReweetStatusView ()
-/** 被转发微博作者的昵称 */
+/** 被转发说说作者的昵称 */
 @property (nonatomic, weak) UILabel *retweetNameLabel;
-/** 被转发微博的正文\内容 */
+/** 被转发说说的正文\内容 */
 @property (nonatomic, weak) UILabel *retweetContentLabel;
-/** 被转发微博的配图 */
+/** 被转发说说的配图 */
 @property (nonatomic, weak) JFPhotosView *retweetPhotosView;
 
 @end
@@ -32,7 +32,7 @@
         self.userInteractionEnabled = YES;
         self.image = [UIImage resizedImageWithName:@"timeline_retweet_background" left:0.9 top:0.5];
         
-        /** 2.被转发微博作者的昵称 */
+        /** 2.被转发说说作者的昵称 */
         UILabel *retweetNameLabel = [[UILabel alloc] init];
         retweetNameLabel.font = IWRetweetStatusNameFont;
         retweetNameLabel.textColor = RGB(67, 107, 163);
@@ -40,7 +40,7 @@
         [self addSubview:retweetNameLabel];
         self.retweetNameLabel = retweetNameLabel;
         
-        /** 3.被转发微博的正文\内容 */
+        /** 3.被转发说说的正文\内容 */
         UILabel *retweetContentLabel = [[UILabel alloc] init];
         retweetContentLabel.font = IWRetweetStatusContentFont;
         retweetContentLabel.backgroundColor = [UIColor clearColor];
@@ -49,7 +49,7 @@
         [self addSubview:retweetContentLabel];
         self.retweetContentLabel = retweetContentLabel;
         
-        /** 4.被转发微博的配图 */
+        /** 4.被转发说说的配图 */
         JFPhotosView *retweetPhotosView = [[JFPhotosView alloc] init];
         [self addSubview:retweetPhotosView];
         self.retweetPhotosView = retweetPhotosView;

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A2301" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JFSearchHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="RxS-4X-Lc3">
+                    <rect key="frame" x="0.0" y="0.0" width="332" height="44"/>
+                    <animations/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="RxS-4X-Lc3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jzy-hK-iFA"/>
+                <constraint firstItem="RxS-4X-Lc3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tfG-2h-kWM"/>
+                <constraint firstAttribute="trailing" secondItem="RxS-4X-Lc3" secondAttribute="trailing" constant="15" id="zkS-n2-a0m"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="395.5" y="46"/>
+        </view>
+    </objects>
+</document>

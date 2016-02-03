@@ -7,7 +7,14 @@
 //
 
 #import "JFAddressBookModel.h"
-
+#import "NSString+Extension.h"
 @implementation JFAddressBookModel
+
+- (void) setUsername:(NSString *)username
+{
+    _username = username;
+    _pinyin = username.pinyin;
+    _initial = username.pinyinInitial;
+}
 
 @end

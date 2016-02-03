@@ -27,9 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor whiteColor];
     
-   
     [self initNav];
     [self initView];
     
@@ -65,6 +63,8 @@
 
 -(void)initView{
     self.taskCentertableView = [UITableView initWithTableView:CGRectMake(0, 45, JFSCREENWIDTH, JFSCREENHEIGHT) withDelegate:nil];
+    self.taskCentertableView.backgroundColor = [UIColor clearColor];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"task_center_background"]];
     [self.view addSubview:self.taskCentertableView];
 
 }

@@ -30,7 +30,7 @@
 /** 正文\内容 */
 @property (nonatomic, weak) UILabel *contentLabel;
 
-/** 被转发微博的view(父控件) */
+/** 被转发说说的view(父控件) */
 @property (nonatomic, weak) JFReweetStatusView *retweetView;
 
 @end
@@ -93,7 +93,7 @@
         [self addSubview:contentLabel];
         self.contentLabel = contentLabel;
         
-        /** 9.添加被转发微博的view */
+        /** 9.添加被转发说说的view */
         JFReweetStatusView *retweetView = [[JFReweetStatusView alloc] init];
         [self addSubview:retweetView];
         self.retweetView = retweetView;
@@ -158,7 +158,7 @@
         self.photosView.hidden = YES;
     }
     
-    // 9.被转发微博
+    // 9.被转发说说
     JFStatus *retweetStatus = status.retweeted_status;
     if (retweetStatus) {
         self.retweetView.hidden = NO;

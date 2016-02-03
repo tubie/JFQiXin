@@ -25,6 +25,7 @@
 #import "JFSixButtonViewController.h"
 
 #import "JFAddTaskViewController.h"
+#import "JFWebViewController.h"
 @interface JFHomeViewController ()<UITableViewDataSource, UITableViewDelegate,JFHomeMenuBoxCellDelagate>
 
 @property(nonatomic, strong)UITableView *homeTableView;
@@ -178,14 +179,18 @@
         case 0:
         {
            
-            [self pushToController:[[JFHomeTodayTaskViewController alloc]init]];
+//            [self pushToController:[[JFHomeTodayTaskViewController alloc]init]];
+            [self pushToController:[[JFWebViewController alloc]init]];
+
         
         }
             
             break;
         case 1:
         {
-            [self pushToController:[[JFHomwtodayScheduleViewController alloc]init]];
+//            [self pushToController:[[JFHomwtodayScheduleViewController alloc]init]];
+            [self pushToController:[[JFWebViewController alloc]init]];
+
             
             
         }
@@ -193,7 +198,9 @@
             break;
         case 2:
         {
-            [self pushToController:[[JFHomeAnnouncementInformViewController alloc]init]];
+//            [self pushToController:[[JFHomeAnnouncementInformViewController alloc]init]];
+            [self pushToController:[[JFWebViewController alloc]init]];
+
 
         }
             

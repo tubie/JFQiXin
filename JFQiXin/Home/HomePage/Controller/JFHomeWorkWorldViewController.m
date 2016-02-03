@@ -38,12 +38,11 @@
 -(void)initData{
     NSDictionary *dict =  [LoadPlist loadPlistFromPlistName:@"FriendDynamic.plist"];
     NSArray * modelArray =  dict[@"statuses"];
-    NSLog(@"%@", modelArray);
     NSMutableArray *statusArray =  [JFStatus objectArrayWithKeyValuesArray:modelArray];
     NSMutableArray *statusFrameArray = [NSMutableArray array];
     for (JFStatus *status in statusArray) {
         JFStatusFrame *statusFrame = [[JFStatusFrame alloc] init];
-        // 传递微博模型数据
+        // 传递说说模型数据
         statusFrame.status = status;
         [statusFrameArray addObject:statusFrame];
     }

@@ -18,7 +18,7 @@
 /** 顶部的view */
 @property (nonatomic, weak) JFStatusTopView *topView;
 
-/** 微博的工具条 */
+/** 说说的工具条 */
 @property (nonatomic, weak) JFStatusToolbar *statusToolbar;
 
 @end
@@ -53,7 +53,7 @@
         // 1.添加顶部的view
         [self setupTopView];
         
-        // 2.添加微博的工具条
+        // 2.添加说说的工具条
         [self setupStatusToolbar];
     }
     return self;
@@ -75,11 +75,11 @@
 }
 
 /**
- *  添加微博的工具条
+ *  添加说说的工具条
  */
 - (void)setupStatusToolbar
 {
-    /** 微博的工具条 */
+    /** 说说的工具条 */
     JFStatusToolbar *statusToolbar = [[JFStatusToolbar alloc] init];
     [self.contentView addSubview:statusToolbar];
     self.statusToolbar = statusToolbar;
@@ -107,7 +107,7 @@
     // 1.设置顶部view的数据
     [self setupTopViewData];
     
-    // 2.设置微博工具条的数据
+    // 2.设置说说工具条的数据
     [self setupStatusToolbarData];
 }
 /**
@@ -123,7 +123,7 @@
 }
 
 /**
- *  设置微博工具条的数据
+ *  设置说说工具条的数据
  */
 - (void)setupStatusToolbarData
 {

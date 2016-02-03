@@ -1094,6 +1094,11 @@
 		93FDEBD51C60C11C00C48F33 /* Contact_icon_ContactTag@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FDEBD31C60C11C00C48F33 /* Contact_icon_ContactTag@3x.png */; };
 		93FDEBD81C60C12600C48F33 /* plugins_FriendNotify@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FDEBD61C60C12600C48F33 /* plugins_FriendNotify@2x.png */; };
 		93FDEBD91C60C12600C48F33 /* plugins_FriendNotify@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FDEBD71C60C12600C48F33 /* plugins_FriendNotify@3x.png */; };
+		93FDEBDC1C61A11500C48F33 /* JFSortingByLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FDEBDB1C61A11500C48F33 /* JFSortingByLetter.m */; };
+		93FDEBDF1C61A40900C48F33 /* JFSearchHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FDEBDE1C61A40900C48F33 /* JFSearchHeaderView.m */; };
+		93FDEBE11C61A41C00C48F33 /* JFSearchHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FDEBE01C61A41C00C48F33 /* JFSearchHeaderView.xib */; };
+		93FDEBE71C61E92700C48F33 /* JFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FDEBE61C61E92700C48F33 /* JFWebViewController.m */; };
+		93FDEBE91C61ECC100C48F33 /* task_center_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FDEBE81C61ECC100C48F33 /* task_center_background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -2260,6 +2265,14 @@
 		93FDEBD31C60C11C00C48F33 /* Contact_icon_ContactTag@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact_icon_ContactTag@3x.png"; sourceTree = "<group>"; };
 		93FDEBD61C60C12600C48F33 /* plugins_FriendNotify@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plugins_FriendNotify@2x.png"; sourceTree = "<group>"; };
 		93FDEBD71C60C12600C48F33 /* plugins_FriendNotify@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plugins_FriendNotify@3x.png"; sourceTree = "<group>"; };
+		93FDEBDA1C61A11500C48F33 /* JFSortingByLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSortingByLetter.h; sourceTree = "<group>"; };
+		93FDEBDB1C61A11500C48F33 /* JFSortingByLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSortingByLetter.m; sourceTree = "<group>"; };
+		93FDEBDD1C61A40900C48F33 /* JFSearchHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSearchHeaderView.h; sourceTree = "<group>"; };
+		93FDEBDE1C61A40900C48F33 /* JFSearchHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSearchHeaderView.m; sourceTree = "<group>"; };
+		93FDEBE01C61A41C00C48F33 /* JFSearchHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFSearchHeaderView.xib; sourceTree = "<group>"; };
+		93FDEBE51C61E92700C48F33 /* JFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFWebViewController.h; sourceTree = "<group>"; };
+		93FDEBE61C61E92700C48F33 /* JFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFWebViewController.m; sourceTree = "<group>"; };
+		93FDEBE81C61ECC100C48F33 /* task_center_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = task_center_background.png; sourceTree = "<group>"; };
 		B3A4BBE7D9D8FB4A01F40D25 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C4D8A0DA9BB92A6C9907FA73 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2315,6 +2328,8 @@
 				7DDC7BBA1BDC6A4300299EF9 /* JFHomeAnnouncementInformViewController.h */,
 				7DDC7BBB1BDC6A4300299EF9 /* JFHomeAnnouncementInformViewController.m */,
 				7DDC7BBC1BDC6A4300299EF9 /* JFHomeAnnouncementInformViewController.xib */,
+				93FDEBE51C61E92700C48F33 /* JFWebViewController.h */,
+				93FDEBE61C61E92700C48F33 /* JFWebViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2359,7 +2374,7 @@
 		7DDF13BF1BD91261001F78A7 /* JFQiXin */ = {
 			isa = PBXGroup;
 			children = (
-				7DE83AA81BD9BA7E00AF08D8 /* Other */,
+				7DE83AA81BD9BA7E00AF08D8 /* Other(其他) */,
 				7DDF13DB1BD91574001F78A7 /* Left */,
 				7DDF13D71BD91543001F78A7 /* Home */,
 				7DDF13C01BD91261001F78A7 /* Supporting Files */,
@@ -2850,7 +2865,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		7DE83AA81BD9BA7E00AF08D8 /* Other */ = {
+		7DE83AA81BD9BA7E00AF08D8 /* Other(其他) */ = {
 			isa = PBXGroup;
 			children = (
 				7DE120BB1BDD0983008B873C /* Libs(资源库) */,
@@ -2858,6 +2873,7 @@
 				7DE83AAA1BD9BA7E00AF08D8 /* PublicClass(公共类) */,
 				7DE83AAB1BD9BA7E00AF08D8 /* ToolClass(工具类) */,
 			);
+			name = "Other(其他)";
 			path = Other;
 			sourceTree = "<group>";
 		};
@@ -2918,6 +2934,8 @@
 				7DDC7BAE1BDC68D800299EF9 /* JFViewController.m */,
 				93410C441C33AA67001C2131 /* LoadPlist.h */,
 				93410C451C33AA67001C2131 /* LoadPlist.m */,
+				93FDEBDA1C61A11500C48F33 /* JFSortingByLetter.h */,
+				93FDEBDB1C61A11500C48F33 /* JFSortingByLetter.m */,
 			);
 			name = "ToolClass(工具类)";
 			path = ToolClass;
@@ -3999,6 +4017,7 @@
 		93FDEB351C60969300C48F33 /* JFOtherImage */ = {
 			isa = PBXGroup;
 			children = (
+				93FDEBE81C61ECC100C48F33 /* task_center_background.png */,
 				93FDEBD61C60C12600C48F33 /* plugins_FriendNotify@2x.png */,
 				93FDEBD71C60C12600C48F33 /* plugins_FriendNotify@3x.png */,
 				93FDEBD21C60C11C00C48F33 /* Contact_icon_ContactTag@2x.png */,
@@ -4050,6 +4069,9 @@
 				93FDEBB31C60B0CB00C48F33 /* JFAddressBookHeaderView.xib */,
 				93FDEBB51C60B30C00C48F33 /* JFAddressBookHeaderView.h */,
 				93FDEBB61C60B30C00C48F33 /* JFAddressBookHeaderView.m */,
+				93FDEBDD1C61A40900C48F33 /* JFSearchHeaderView.h */,
+				93FDEBDE1C61A40900C48F33 /* JFSearchHeaderView.m */,
+				93FDEBE01C61A41C00C48F33 /* JFSearchHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -4541,6 +4563,7 @@
 				7DE83F3A1BDA09B400AF08D8 /* dyShareSignOut@2x.png in Resources */,
 				7DE83E8D1BDA09B400AF08D8 /* applyInfo_noAuth@2x.png in Resources */,
 				7DE841641BDA09B400AF08D8 /* task_cancel@2x.png in Resources */,
+				93FDEBE11C61A41C00C48F33 /* JFSearchHeaderView.xib in Resources */,
 				7DE840191BDA09B400AF08D8 /* login_animal3@2x.png in Resources */,
 				7DE841551BDA09B400AF08D8 /* tabbar_message_on@2x.png in Resources */,
 				7DE83F731BDA09B400AF08D8 /* Expression_38@2x.png in Resources */,
@@ -4607,6 +4630,7 @@
 				7DE841681BDA09B400AF08D8 /* task_date@2x.png in Resources */,
 				7DE8406E1BDA09B400AF08D8 /* register_input@2x.png in Resources */,
 				7DE83F281BDA09B400AF08D8 /* dy_task@2x.png in Resources */,
+				93FDEBE91C61ECC100C48F33 /* task_center_background.png in Resources */,
 				7DE841EB1BDA09B400AF08D8 /* work_bq@2x.png in Resources */,
 				7DE120F61BDD1F04008B873C /* icon_ smileBtn.png in Resources */,
 				7DE842141BDA09B400AF08D8 /* work_Record3@2x.png in Resources */,
@@ -5226,6 +5250,7 @@
 				93410C5E1C33B4B4001C2131 /* NSDate+JFDate.m in Sources */,
 				7DE120E31BDD1BDC008B873C /* UIImage+Extension.m in Sources */,
 				7DE659241BDDB36B00511CFC /* JFAddressBookViewController.m in Sources */,
+				93FDEBDC1C61A11500C48F33 /* JFSortingByLetter.m in Sources */,
 				934232CE1C3164F9007D89A6 /* UIView+JFExtention.m in Sources */,
 				7DE83AB71BD9BBA300AF08D8 /* JFCustomerServiceCenterViewController.m in Sources */,
 				7DDDDE241BDBC44F00058752 /* JFCreatTitleButton.m in Sources */,
@@ -5249,9 +5274,11 @@
 				93410C2D1C32CE00001C2131 /* JFHomeTaskCell.m in Sources */,
 				93410C211C32CE00001C2131 /* JFHomeViewController.m in Sources */,
 				7DE120E21BDD1BDC008B873C /* NSString+Extension.m in Sources */,
+				93FDEBE71C61E92700C48F33 /* JFWebViewController.m in Sources */,
 				7DE83AA41BD9BA0E00AF08D8 /* JFLeftCell.m in Sources */,
 				7DE120D71BDD18F6008B873C /* JFMessage.m in Sources */,
 				93410C2B1C32CE00001C2131 /* JFHomeMenuBoxCell.m in Sources */,
+				93FDEBDF1C61A40900C48F33 /* JFSearchHeaderView.m in Sources */,
 				7DE83ABA1BD9BBCC00AF08D8 /* JFMyWorkWorldViewController.m in Sources */,
 				7DE659321BDDEB2C00511CFC /* JFApplicationCenterCell.m in Sources */,
 				93410C1E1C32CE00001C2131 /* JFAddTaskViewController.m in Sources */,
