@@ -1,5 +1,9 @@
 # JFQiXin
 高仿企信
+
+![视频详情页](http://7pum4h.com1.z0.glb.clouddn.com/JFQX%E4%BE%A7%E8%BE%B9%E6%A0%8F.gif)
+
+
 #项目详解：
 [点击项目详解链接](http://www.jianshu.com/p/87b9194c4b01)
 ##欢迎指出高仿企信的不足之处，我会非常开心^_^ 
