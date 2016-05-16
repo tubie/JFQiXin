@@ -3,7 +3,7 @@
 
 ![朋友圈](http://7pum4h.com1.z0.glb.clouddn.com/JFQX%E6%9C%8B%E5%8F%8B%E5%9C%88.gif)
 ![视频详情页](http://7pum4h.com1.z0.glb.clouddn.com/JFQX%E4%BE%A7%E8%BE%B9%E6%A0%8F.gif)
-![视频详情页](http://7pum4h.com1.z0.glb.clouddn.com/JFQX%E4%BE%A7%E8%BE%B9%E6%A0%8F.gif)
+![好友列表](http://7pum4h.com1.z0.glb.clouddn.com/JFQX%E5%A5%BD%E5%8F%8B%E5%88%97%E8%A1%A8.gif)
 ![视频详情页](http://7pum4h.com1.z0.glb.clouddn.com/JFQX%E5%8A%A8%E7%94%BB.gif)
 ![视频详情页](http://7pum4h.com1.z0.glb.clouddn.com/JFQX%E6%97%A5%E5%8E%86%E8%A1%A8.gif)
 ![视频详情页](http://7pum4h.com1.z0.glb.clouddn.com/JFQX%E6%9C%8B%E5%8F%8B%E5%9C%88.gif)
