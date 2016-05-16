@@ -6,7 +6,7 @@
 ![好友列表](http://7pum4h.com1.z0.glb.clouddn.com/JFQX%E5%A5%BD%E5%8F%8B%E5%88%97%E8%A1%A8.gif)
 ![视频详情页](http://7pum4h.com1.z0.glb.clouddn.com/JFQX%E5%8A%A8%E7%94%BB.gif)
 ![视频详情页](http://7pum4h.com1.z0.glb.clouddn.com/JFQX%E6%97%A5%E5%8E%86%E8%A1%A8.gif)
-![视频详情页](http://7pum4h.com1.z0.glb.clouddn.com/JFQX%E6%9C%8B%E5%8F%8B%E5%9C%88.gif)
+![视频详情页](http://7pum4h.com1.z0.glb.clouddn.com/JFQXChat.gif)
 ![视频详情页](http://7pum4h.com1.z0.glb.clouddn.com/JFQXu%E9%80%89%E6%8B%A9%E8%8F%9C%E5%8D%95.gif)
 
 
